@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: f96e4125bd9bfc04b8d5a301284a25ad
+timeCreated: 1449006140
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: extra_joint
+    100002: head_jt
+    100004: joint1
+    100006: joint10
+    100008: joint12
+    100010: joint13
+    100012: joint14
+    100014: joint15
+    100016: joint16
+    100018: joint17
+    100020: joint18
+    100022: joint19
+    100024: joint2
+    100026: joint3
+    100028: joint4
+    100030: joint5
+    100032: joint6
+    100034: joint7
+    100036: joint8
+    100038: joint9
+    100040: L_ankle_jt
+    100042: L_ball_jt
+    100044: L_elbow_jt
+    100046: L_knee_jt
+    100048: L_shoulder_jt
+    100050: L_thigh_jt
+    100052: L_toe_jt
+    100054: L_wrist_jt
+    100056: main_bs_ctrl
+    100058: main_MAIN_ctrl
+    100060: model5
+    100062: neck_jt
+    100064: nurbsCircle1
+    100066: pelvis_joint
+    100068: R_ankle_jt
+    100070: R_ball_jt
+    100072: R_elbow_jt
+    100074: R_knee_jt
+    100076: R_shoulder_jt
+    100078: R_thigh_jt
+    100080: R_toe_jt
+    100082: root_jt
+    100084: spine_jt
+    100086: torso_cont_
+    100088: transform64
+    100090: //RootNode
+    100092: whatever_jt
+    400000: extra_joint
+    400002: head_jt
+    400004: joint1
+    400006: joint10
+    400008: joint12
+    400010: joint13
+    400012: joint14
+    400014: joint15
+    400016: joint16
+    400018: joint17
+    400020: joint18
+    400022: joint19
+    400024: joint2
+    400026: joint3
+    400028: joint4
+    400030: joint5
+    400032: joint6
+    400034: joint7
+    400036: joint8
+    400038: joint9
+    400040: L_ankle_jt
+    400042: L_ball_jt
+    400044: L_elbow_jt
+    400046: L_knee_jt
+    400048: L_shoulder_jt
+    400050: L_thigh_jt
+    400052: L_toe_jt
+    400054: L_wrist_jt
+    400056: main_bs_ctrl
+    400058: main_MAIN_ctrl
+    400060: model5
+    400062: neck_jt
+    400064: nurbsCircle1
+    400066: pelvis_joint
+    400068: R_ankle_jt
+    400070: R_ball_jt
+    400072: R_elbow_jt
+    400074: R_knee_jt
+    400076: R_shoulder_jt
+    400078: R_thigh_jt
+    400080: R_toe_jt
+    400082: root_jt
+    400084: spine_jt
+    400086: torso_cont_
+    400088: transform64
+    400090: //RootNode
+    400092: whatever_jt
+    4300000: model5
+    7400000: Pleasant
+    7400002: Angry
+    7400004: Cold/Sad
+    7400006: Standard Pose
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: model5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''various animations'' conversion failed: Required human bone
+      ''RightHand'' not found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Pleasant
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_MAIN_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/extra_joint
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint1
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint2
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint3
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint4
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint5
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint6
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint7
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint8
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint9
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint10
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint12
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint13
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint14
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint15
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint16
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint17
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint18
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint19
+        weight: 1
+      - path: model5
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/torso_cont_
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt/L_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt/R_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt/L_wrist_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt/whatever_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt/R_elbow_jt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Angry
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_MAIN_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/extra_joint
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint1
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint2
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint3
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint4
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint5
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint6
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint7
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint8
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint9
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint10
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint12
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint13
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint14
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint15
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint16
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint17
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint18
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint19
+        weight: 1
+      - path: model5
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/torso_cont_
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt/L_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt/R_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt/L_wrist_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt/whatever_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt/R_elbow_jt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Cold/Sad
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_MAIN_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/extra_joint
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint1
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint2
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint3
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint4
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint5
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint6
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint7
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint8
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint9
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint10
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint12
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint13
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint14
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint15
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint16
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint17
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint18
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint19
+        weight: 1
+      - path: model5
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/torso_cont_
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt/L_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt/R_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt/L_wrist_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt/whatever_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt/R_elbow_jt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Standard Pose
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: main_MAIN_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/extra_joint
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint1
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint2
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint3
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint4
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint5
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint6
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint7
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint8
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint9
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint10
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint12
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint13
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint14
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint15
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint16
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint17
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint18
+        weight: 1
+      - path: main_MAIN_ctrl/main_bs_ctrl/joint19
+        weight: 1
+      - path: model5
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/torso_cont_
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/L_thigh_jt/L_knee_jt/L_ankle_jt/L_ball_jt/L_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/pelvis_joint/R_thigh_jt/R_knee_jt/R_ankle_jt/R_ball_jt/R_toe_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/L_shoulder_jt/L_elbow_jt/L_wrist_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/neck_jt/head_jt/whatever_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt
+        weight: 1
+      - path: nurbsCircle1/torso_cont_/transform64/root_jt/spine_jt/R_shoulder_jt/R_elbow_jt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
